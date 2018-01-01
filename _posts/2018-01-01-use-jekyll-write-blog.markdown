@@ -13,8 +13,8 @@ categories: jekyll update
 
 jekyll基于ruby，所以要先安装ruby。好在kali（base on debian）系统自带。于是，我们直接用gem安装即可：
 ```
-#gem install jekyll
+#gem install jekyll bundle
 #jekyll new blog
 #cd myblog
-#jekyll serve
+#bundle exec jekyll serve
 ```
