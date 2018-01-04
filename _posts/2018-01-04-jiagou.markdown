@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "架构"
+date:   2018-01-04 32:22:18 +0800
+categories: jekyll update
+---
+
+
+服务器：debian && freebsd
+非涉秘（公司核心）业务用debian，因为debian包资源丰富，社区环境和商业环境都成熟。核心业务（公司秘密）用freebsd，因为freebsd系统股若进汤，是安全服务器的不二选择。
+
+客户端：android
+开发端：kali（base on debian）
+开发环境也必须十分安全，而kali天生就是用来安全审计的。
+
+交互界面：H5
+
+不使用QT，不使用GTK，而是使用可以跨平台的H5。因为项目不是做游戏，也不是做即时通信，所以对交互性能要求不是首位。H5的性能虽然不如原生应用，但交互效果却是No1的。而且H5具备跨平台的特性。和部署的操作系统环境完全无关。
+
+界面的模板引擎：md && textile
+
+```
+textile：   h1.title   =》  <h1>title</h1>
+md:         #title     =>   <h1>title</h1>
+```
+
+我们用md作为模板引擎。
+用textile作为语义模板引擎。
+
+语义引擎可以把textile文件解析成包含语义的HTML文件。
+
+这样通过文件和目录都可以区分常规页面和语义页面。
+
+前端框架： semanticUI
+
+比bootstrop好在的地方，是可以在自定义标签中使用css。
+
+
+服务端框架：ROR && Flask
+
+
+
+
+
