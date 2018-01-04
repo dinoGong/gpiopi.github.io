@@ -14,4 +14,6 @@ dd bs=4M if=tanglu-dasyatis-kde-live-amd64.hybrid.iso of=/dev/sda status=progres
 
 然而，当我安装的时候，却发现安装失败了。
 
+![]("/images/tanglu.jpg")
+
 omgd，qnmlgb！
