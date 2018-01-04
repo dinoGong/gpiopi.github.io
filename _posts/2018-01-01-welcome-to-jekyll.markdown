@@ -1,25 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll2!"
-date:   2018-01-01 22:22:18 +0800
+title:  "别做糊涂人"
+date:   2018-01-04 22:22:18 +0800
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+最近太忙，结果导致糊涂了。可能是家里人给我在银行卡里存了款我不知道。结果被第三方划走了。
 
-Jekyll also offers powerful support for code snippets:
+就当一个教训了。以后一定不能糊涂了，建立审查机制，杜绝风险。要知道和自己有关的一切，自己的东西，自己的账户，千万不能有半点疏忽。
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
