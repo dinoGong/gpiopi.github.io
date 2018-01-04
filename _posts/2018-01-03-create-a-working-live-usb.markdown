@@ -44,3 +44,17 @@ wget http://download.trueos.org/master/amd64/TrueOS-Desktop-17.12-x64-DVD.iso
 ```
 
 
+base debian
+crunchbang++
+```
+https://crunchbangplusplus.org/download/
+```
+
+```
+https://sourceforge.net/projects/sparkylinux/files/xfce/
+```
+
+smail linux
+```
+http://mirror.slitaz.org/iso/rolling/slitaz-rolling.iso
+```
