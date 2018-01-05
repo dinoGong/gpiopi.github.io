@@ -8,7 +8,9 @@ categories: jekyll update
 下载安装镜像文件：
 https://antergos.com/download/antergos-live-iso/
 
-
+```
+wget http://mirrors.antergos.com/iso/release/antergos-17.12-x86_64.iso
+```
 下载后用dd命令制作U盘安装器
 ```
 dd bs=4M if=/path/to/antergos-x86_64.iso of=/dev/sdX status=progress && 
