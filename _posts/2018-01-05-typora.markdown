@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "使用Typora做MD编辑器"
+date:   2018-01-05 22:22:18 +0800
+categories: jekyll update
+---
+
+首先下载：
+
+```
+wget https://typora.io/linux/Typora-linux-x64.tar.gz
+```
+
+之后解压缩，双击可执行文件即可。
+
+然而，并没有运行。终端下执行，发现缺少一个文件。
+
+```
+$ ./Typora 
+./Typora: error while loading shared libraries: libgconf-2.so.4: cannot open shared object file: No such file or directory
+```
+
+安装就可以了
+```
+sudo pacman -S gconf
+```
+
+
