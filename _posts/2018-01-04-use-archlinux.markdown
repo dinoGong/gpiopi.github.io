@@ -6,6 +6,12 @@ categories: jekyll update
 ---
 
 下载安装镜像文件：
+```
+wget http://mirrors.163.com/archlinux/iso/2018.01.01/archlinux-2018.01.01-x86_64.iso
+```
+
+也可以下载antergos，这是archlinux的一个比较容易入门的发行版。
+
 https://antergos.com/download/antergos-live-iso/
 
 ```

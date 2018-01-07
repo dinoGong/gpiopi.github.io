@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "使用emule下载ed2k"
+date:   2018-01-07 22:22:18 +0800
+categories: jekyll update
+---
+
+
+因为需要使用IE，所以不得不去寻找XP镜像。然而，网上下载的大部分是GHOST的镜像，安装完毕后各种全家桶，装上杀毒软件各种病毒。因此准备用原版的系统。好不容易找到了，却发现是ed2k的。其实平时我根本不使用下载工具，我只用wget命令来下载。但是这个命令却无法下载ed2k的文件。
+
+```
+ed2k://|file|zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070 (ED2000.COM).iso|630237184|EC51916C9D9B8B931195EE0D6EE9B40E|/
+```
+
+```
+MRX3F-47B9T-2487J-KWKMF-RPWBY
+```
+
+
+下载直接安装amule。
+
+https://www.archlinux.org/packages/community/x86_64/amule/download/
+
+
+运行后却无反映，在终端里运行，提示找不到文件：
+
+```
+$ amule
+amule: error while loading shared libraries: libboost_system.so.1.66.0: cannot open shared object file: No such file or directory
+
+```
+
+这个文件在这里，下载安装即可：
+https://www.archlinux.org/packages/extra/x86_64/boost-libs/download/
+
+
+然而，ed2k下载太慢了，索性放弃，终于找到更好的更放心的方法，是微软官方提供的：
+
+```
+https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
+```
+
+不过最低版本是win7的IE8。
+
+最后虚拟机没有启动成功，提示：
+
+
+原来是缺少对应的linux头文件，输入以下命令，即可安装linux头文件，并自动配置dkms。
+```
+sudo pacman -S linux-headers
+```
+
+重启之后，一切正常。
+
+```
+sudo reboot
+```
+
+
