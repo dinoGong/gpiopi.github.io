@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "pip 用国内源"
+date:   2018-01-11 22:22:18 +0800
+categories: jekyll update
+---
+
+打开android，发现出现一个错误。
+
+```
+Error:Failed to open zip file.
+Gradle's dependency cache may be corrupt (this sometimes occurs after a network connection timeout.)
+<a href="syncProject">Re-download dependencies and sync project (requires network)</a>
+<a href="syncProject">Re-download dependencies and sync project (requires network)</a>
+```
+
+怎么办？
+
+方法非常简单，就是打开gradle/wrapper/gradle-wrapper.properties文件，找到这一条：
+```
+distributionUrl=https\://services.gradle.org/distributions/gradle-4.1-all.zip
+```
+
+把https改成http：
+```
+distributionUrl=http\://services.gradle.org/distributions/gradle-4.1-all.zip
+```

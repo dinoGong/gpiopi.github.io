@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "pip 用国内源"
+date:   2018-01-11 22:22:18 +0800
+categories: jekyll update
+---
+
+```
+
+```
+nano $HOME/.pip/pip.conf
+```
+[global]
+timeout = 60
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+```
