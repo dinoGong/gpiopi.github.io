@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "sp"
+date:   2018-01-16 22:22:18 +0800
+categories: jekyll update
+---
+
+定时
+
+
+crontab -e
+
+*/1 * * * * /usr/bin/python /home/pi/auto/light.py
+
+
+sudo service cron start

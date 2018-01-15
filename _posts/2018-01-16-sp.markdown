@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "sp"
+date:   2018-01-11 22:22:18 +0800
+categories: jekyll update
+---
+
+```
+git clone https://aur.archlinux.org/sphinxbase.git
+cd sphinxbase
+makepkg
+```
+
+
+
+```
+git clone https://github.com/cmusphinx/pocketsphinx.git
+cd pocketsphinx
+./configure
+```
