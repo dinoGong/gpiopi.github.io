@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "webcam"
+date:   2018-01-16 22:22:18 +0800
+categories: jekyll update
+---
+
+```
+sudo apt-get install motion
+sudo nano /etc/default/motion
+start_motion_daemon=yes
+nano /etc/motion/motion.conf
+```
+
+
+daemon off -> daemon on
+
+stream_localhost on -> stream_localhost off
+```
+sudo service motion start  
+sudo motion
+```
