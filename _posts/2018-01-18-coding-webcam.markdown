@@ -35,10 +35,24 @@ lsusb
 ls -l /dev/video0
 ```
 
+如果不支持摄像头，比如我买的一款摄像头，显示是GEMBIRD，死活找不到驱动程序。好在发现debian的内核头文件里有。
+所以，升级内核。
+
+
+```
+uname -r
+sudo apt-get install linux-headers-$(uname -r)
+```
+然后重启，并对dev/video设置权限
+```
+chmod 777 /dev/video
+
+```
 安装fswebcam
 ```
 sudo apt install fswebcam
 ```
+
 
 
 
@@ -55,6 +69,7 @@ nano /etc/motion/motion.conf
 daemon off -> daemon on
 
 stream_localhost on -> stream_localhost off
+
 ```
 sudo service motion start  
 sudo motion
